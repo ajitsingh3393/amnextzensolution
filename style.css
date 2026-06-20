@@ -91,31 +91,7 @@
     border-radius: 6px;
     transition: all 0.2s;
   }
-.header-inner{
-    display:flex;
-    align-items:center;
-    gap:20px;
-}
 
-.logo-img{
-    width:90px;
-    height:90px;
-    object-fit:contain;
-}
-
-.logo-text .brand{
-    display:block;
-    font-size:42px;
-    font-weight:700;
-    color:#1f3b63;
-}
-
-.logo-text .tagline{
-    display:block;
-    font-size:18px;
-    color:#7a7a7a;
-    letter-spacing:1px;
-}
   nav ul li a:hover, nav ul li a.active { background: var(--light); color: var(--primary); }
   nav ul li .dropdown {
     display: none;
